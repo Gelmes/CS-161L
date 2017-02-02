@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/Wynter 2017/161L/Tutorial/fulladder.xst" -ofn "C:/Users/Marco/Dropbox/School/Wynter 2017/161L/Tutorial/fulladder.syr" 

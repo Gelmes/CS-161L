@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/converter/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/converter/xst"
+elaborate
+-ifn fix2float.prj
+-ifmt mixed

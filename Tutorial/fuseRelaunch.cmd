@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Marco/Dropbox/School/Wynter 2017/161L/Tutorial/TB_Tutorial_isim_beh.exe" -prj "C:/Users/Marco/Dropbox/School/Wynter 2017/161L/Tutorial/TB_Tutorial_beh.prj" "work.TB_Tutorial" "work.glbl" 

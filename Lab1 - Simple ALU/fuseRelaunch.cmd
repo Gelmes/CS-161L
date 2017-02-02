@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/myalutb_isim_beh.exe" -prj "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/myalutb_beh.prj" "work.myalutb" "work.glbl" 

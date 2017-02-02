@@ -1,0 +1,5 @@
+verilog isim_temp "float2fix.v"
+verilog isim_temp "fix2float.v"
+verilog isim_temp "lab02.v"
+verilog isim_temp "testbench.v"
+verilog isim_temp "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"

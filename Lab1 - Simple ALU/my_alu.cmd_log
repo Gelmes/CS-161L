@@ -1,0 +1,71 @@
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 
+vhdtdtfi -lib work {C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/alu.v} -lang verilog -prj Lab1-SimpleALU -o my_alu.spl -module my_alu -template C:/Xilinx/14.1/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e my_alu.spl {C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.sym} 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 
+vhdtdtfi -lib work {C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/alu.v} -lang verilog -prj Lab1-SimpleALU -o my_alu.spl -module my_alu -template C:/Xilinx/14.1/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e my_alu.spl {C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.sym} 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.xst" -ofn "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 "my_alu.ngc" my_alu.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o my_alu_map.ncd my_alu.ngd my_alu.pcf 
+par -w -intstyle ise -ol high -t 1 my_alu_map.ncd my_alu.ncd my_alu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml my_alu.twx my_alu.ncd -o my_alu.twr my_alu.pcf 
+bitgen -intstyle ise -f my_alu.ut my_alu.ncd 

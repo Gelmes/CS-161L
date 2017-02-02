@@ -1,0 +1,61 @@
+ISim log file
+Running: C:\Users\Marco\Dropbox\School\WINTER 2017\161L\Lab1-SimpleALU\myalutb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/myalutb_isim_beh.wdb 
+ISim P.15xf (signature 0xc3576ebc)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+TC11 Unsigned Add 
+TC12 Unsigned Add 
+TC13 Unsigned Add 
+TC14 Unsigned Add 
+TC15 Unsigned Add 
+TC21 Unsigned subs 
+TC22 Unsigned subs 
+TC23 Unsigned subs 
+TC24 Unsigned subs 
+# run 100ns
+TC25 Unsigned subs 
+# run 100ns
+TC31 Signed adds 
+# run 100ns
+TC32 Signed adds 
+# run 100ns
+TC33 Signed adds 
+# run 100ns
+TC34 Signed adds 
+# run 100ns
+TC35 Signed adds 
+# run 100ns
+TC41 Signed adds 
+# run 100ns
+TC42 Signed adds 
+# run 100ns
+TC43 Signed adds 
+# run 100ns
+TC45 Signed adds 
+# run 100ns
+TC45 Signed adds 
+# run 100ns
+TC51 ANDs 
+# run 100ns
+TC52 ANDs 
+# run 100ns
+TC61 ORs 
+# run 100ns
+TC62 ORs 
+# run 100ns
+TC71 XORs 
+# run 100ns
+TC72 XORs 
+# run 100ns
+TC81 Divs 
+# run 100ns
+TC82 Divs 
+# run 100ns
+# run 100ns
+# run 100ns
+# run 100ns
