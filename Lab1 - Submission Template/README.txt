@@ -1,4 +1,4 @@
-Lab 2 README
+Lab 3 README
 ==========================================================
 
 LEADER
@@ -9,11 +9,11 @@ MEMBERS
 mrubi005@ucr.edu
 
 REMARKS
-- My module works as described in the specification using the provided test bench.
+- The test benches used were very basic so no special cases were found right away
 ==========================================================
 
 BUGS IF ANY 
-- no known bugs at this moment
+- When running cirtain cases where the values for the function on the ALU are "X's" meaning either zero or one, the code will not work for other values other then zero. In other words my code assumes all "X's" from the lab guide are the value of zero.
 
 ==========================================================
 
