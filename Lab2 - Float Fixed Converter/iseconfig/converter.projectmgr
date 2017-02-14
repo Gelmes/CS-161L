@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>float2fix (C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab2 - Float Fixed Converter/float2fix.v)</SelectedItem>
+         <SelectedItem>lab02 (C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/lab02.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000bc000000020000000000000000000000000200000064ffffffff000000810000000300000002000000bc0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e5000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e50000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>float2fix (C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab2 - Float Fixed Converter/float2fix.v)</CurrentItem>
+      <CurrentItem>lab02 (C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/lab02.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -70,7 +70,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000c2000000020000000000000000000000000200000064ffffffff000000810000000300000002000000c20000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000f9000000020000000000000000000000000200000064ffffffff000000810000000300000002000000f90000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>xc3s100e-5tq144</CurrentItem>
    </ItemView>
