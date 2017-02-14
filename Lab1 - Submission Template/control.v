@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module control(
+module control_unit(
  input wire [5:0] instr_op ,
  output reg reg_dst ,
  output reg branch ,
