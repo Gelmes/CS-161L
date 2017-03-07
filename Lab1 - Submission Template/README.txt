@@ -1,4 +1,4 @@
-Lab 3 README
+Lab 5 README
 ==========================================================
 
 LEADER
@@ -9,11 +9,16 @@ MEMBERS
 mrubi005@ucr.edu
 
 REMARKS
-- The test benches used were very basic so no special cases were found right away
+- For this lab we continued work on the datapath and added the registers that would help achieve a multicycle pipeline. The generic register file hold the data of each cycle. This data is passed on from one cycle to another. 
+- The correct aproach to completing this project would have been to create modules for each cycle e.g. (id, if,ex,mem,wr)
+- Because of lack of time all the code was writen to a single file. With more time the correct implementation would have been achived.
+- The signals looks like the provided waveform except that mine runs at an earlier PC cycle.
 ==========================================================
 
 BUGS IF ANY 
-- When running cirtain cases where the values for the function on the ALU are "X's" meaning either zero or one, the code will not work for other values other then zero. In other words my code assumes all "X's" from the lab guide are the value of zero.
+- During runtime I get two warning stating that some ports are not of equal width. This can be corrected by carefully adjusting the width of the signal lines, maybe adding some registers.
+
+
 
 ==========================================================
 
