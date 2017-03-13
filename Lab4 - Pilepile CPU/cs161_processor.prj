@@ -1,0 +1,8 @@
+verilog work "../../../../../../../Downloads/master(1)/alu.v"
+verilog work "../../../../../../../Downloads/lab4/mux_2_1.v"
+verilog work "../../../../../../../Downloads/lab4/gen_register.v"
+verilog work "../../../../../../../Downloads/lab4/cpu_registers.v"
+verilog work "../../../../../../../Downloads/lab4/cpumemory.v"
+verilog work "../../../../../../../Downloads/lab4/control_unit.v"
+verilog work "../../../../../../../Downloads/lab4/alu_control.v"
+verilog work "../../../../../../../Downloads/lab4/cs161_processor.v"
