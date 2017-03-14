@@ -1,0 +1,41 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+WARNING:Xst:2682 - Unable to write in file ".lso"
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "TCAM.v" in library work
+Compiling verilog file "CAM_row.v" in library work
+Module <TCAM> compiled
+Compiling verilog file "CAMarray.v" in library work
+Module <CAM_row> compiled
+Compiling verilog file "CAM_Wrapper.v" in library work
+Module <CAM_Array> compiled
+ERROR:HDLCompilers:28 - "CAM_Wrapper.v" line 7 'CAM_DEPTH' has not been declared
+ERROR:HDLCompilers:28 - "CAM_Wrapper.v" line 8 'CAM_WIDTH' has not been declared
+ERROR:HDLCompilers:28 - "CAM_Wrapper.v" line 9 'CAM_WIDTH' has not been declared
+ERROR:HDLCompilers:28 - "CAM_Wrapper.v" line 10 'CAM_WIDTH' has not been declared
+Module <CAM_Wrapper> compiled
+Analysis of file <"CAM_Wrapper.prj"> failed.
+--> 
+
+Total memory usage is 256916 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

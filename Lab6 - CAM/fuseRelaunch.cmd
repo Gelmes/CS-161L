@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/lab06_tb_isim_beh.exe" -prj "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/lab06_tb_beh.prj" "work.lab06_tb" "work.glbl" 

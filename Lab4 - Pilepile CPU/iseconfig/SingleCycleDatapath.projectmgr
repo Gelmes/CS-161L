@@ -10,13 +10,13 @@
          <ClosedNode>/Automatic `includes</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>memwb_4 - gen_register (C:/Users/Marco/Downloads/lab4/gen_register.v)</SelectedItem>
+         <SelectedItem>cs161_processor (C:/Users/Marco/Downloads/lab4/cs161_processor.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >12</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000210000000020000000000000000000000000200000064ffffffff000000810000000300000002000002100000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000205000000020000000000000000000000000200000064ffffffff000000810000000300000002000002050000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>memwb_4 - gen_register (C:/Users/Marco/Downloads/lab4/gen_register.v)</CurrentItem>
+      <CurrentItem>cs161_processor (C:/Users/Marco/Downloads/lab4/cs161_processor.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -45,7 +45,7 @@
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009e00000001000000000000004900000001000000000000005d00000001000000000000019f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>C:\Users\Marco\Downloads\master(1)\alu.v</CurrentItem>
+      <CurrentItem>..\..\..\..\..\..\..\Downloads\lab4\alu_control.v</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>

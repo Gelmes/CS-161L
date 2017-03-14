@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/lab06_tb_isim_beh.exe -prj C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/lab06_tb_beh.prj work.lab06_tb work.glbl 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/TCAM.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/CAM_row.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/CAMarray.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/CAM_Wrapper.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/lab06_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module TCAM
+Compiling module CAM_row(width=8)
+Compiling module CAM_Array(depth=8,width=8)
+Compiling module CAM_Wrapper
+Compiling module lab06_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6 - CAM/lab06_tb_isim_beh.exe
+Fuse Memory Usage: 28304 KB
+Fuse CPU Usage: 546 ms

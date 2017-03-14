@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/CS-161L/Lab6/xst"
+elaborate
+-ifn TCAM.prj
+-ifmt mixed

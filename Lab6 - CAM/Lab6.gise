@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab6.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CAM_Array.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CAM_Array.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CAM_Array.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CAM_Wrapper.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CAM_Wrapper.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CAM_Wrapper.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CAM_row.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CAM_row.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CAM_row.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TCAM.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="TCAM.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="TCAM.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lab06_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="lab06_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="lab06_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1489460043" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1489460043">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489463913" xil_pn:in_ck="2414862310062306911" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1489463913">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BCAM.v"/>
+      <outfile xil_pn:name="CAM_Wrapper.v"/>
+      <outfile xil_pn:name="CAM_row.v"/>
+      <outfile xil_pn:name="CAMarray.v"/>
+      <outfile xil_pn:name="STCAM.v"/>
+      <outfile xil_pn:name="TCAM.v"/>
+      <outfile xil_pn:name="lab06_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1489460043" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7677711247334683103" xil_pn:start_ts="1489460043">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489460043" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1327311523767065437" xil_pn:start_ts="1489460043">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489460043" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1535710892228486173" xil_pn:start_ts="1489460043">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1489463913" xil_pn:in_ck="2414862310062306911" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1489463913">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BCAM.v"/>
+      <outfile xil_pn:name="CAM_Wrapper.v"/>
+      <outfile xil_pn:name="CAM_row.v"/>
+      <outfile xil_pn:name="CAMarray.v"/>
+      <outfile xil_pn:name="STCAM.v"/>
+      <outfile xil_pn:name="TCAM.v"/>
+      <outfile xil_pn:name="lab06_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1489463916" xil_pn:in_ck="2414862310062306911" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-447452711941793245" xil_pn:start_ts="1489463913">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="lab06_tb_beh.prj"/>
+      <outfile xil_pn:name="lab06_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1489463916" xil_pn:in_ck="5348263717824522777" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2854712918033448550" xil_pn:start_ts="1489463916">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="lab06_tb_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

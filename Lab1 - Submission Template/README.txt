@@ -1,4 +1,4 @@
-Lab 5 README
+Lab 6 README
 ==========================================================
 
 LEADER
@@ -9,14 +9,15 @@ MEMBERS
 mrubi005@ucr.edu
 
 REMARKS
-- For this lab we continued work on the datapath and added the registers that would help achieve a multicycle pipeline. The generic register file hold the data of each cycle. This data is passed on from one cycle to another. 
-- The correct aproach to completing this project would have been to create modules for each cycle e.g. (id, if,ex,mem,wr)
-- Because of lack of time all the code was writen to a single file. With more time the correct implementation would have been achived.
-- The signals looks like the provided waveform except that mine runs at an earlier PC cycle.
+- CAM's are really cool they are like the opposite of RAM memory
+- In this lab we implemented the CAM and created some HDL to automaticaly generate an arbitrary sized CAM. 
+- I'm not 100% sure what the output of the cam was supposed to look like with the provided TEST bench bunch i believe my CAM works fine.
+- There does seem to be a bit of lag time before the output sees the results which might have something to do with a bug in my code probably regarding my clock signal
+- I attached an image of my result to this folder
 ==========================================================
 
 BUGS IF ANY 
-- During runtime I get two warning stating that some ports are not of equal width. This can be corrected by carefully adjusting the width of the signal lines, maybe adding some registers.
+- there might be some timing issues since there seems to take a little bit of time before the correct output is seen. Probably has to do with my clock signal if thats the case. Im not sure how soon the output is supposed to be seend.
 
 
 
