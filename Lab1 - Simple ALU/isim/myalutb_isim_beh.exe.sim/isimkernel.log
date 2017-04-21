@@ -2,14 +2,14 @@ Command line:
    myalutb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  24464
+     -socket  59250
 
-Mon Jan 23 18:31:44 2017
+Wed Apr 12 14:37:21 2017
 
 
- Elaboration Time: 0.15625 sec
+ Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 836.116 Meg
+ Current Memory Usage: 836.567 Meg
 
  Total Signals          : 22
  Total Nets             : 53
@@ -20,9 +20,9 @@ Mon Jan 23 18:31:44 2017
  Total Traceable Variables  : 32
  Total Scalar Nets and Variables : 253
 
- Total Simulation Time: 0.5 sec
+ Total Simulation Time: 0.046875 sec
 
- Current Memory Usage: 364.257 Meg
+ Current Memory Usage: 521.994 Meg
 
-Thu Jan 26 19:38:25 2017
+Thu Apr 13 14:05:02 2017
 

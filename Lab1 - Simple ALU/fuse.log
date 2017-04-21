@@ -1,13 +1,13 @@
-Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/myalutb_isim_beh.exe -prj C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/myalutb_beh.prj work.myalutb work.glbl 
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/myalutb_isim_beh.exe -prj C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/myalutb_beh.prj work.myalutb work.glbl 
 ISim P.15xf (signature 0xc3576ebc)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/alu.v" into library work
-Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alutb.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/alu.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/my_alutb.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1016 - "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alutb.v" Line 26: Port R is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/my_alutb.v" Line 26: Port R is not connected to this instance
 Completed static elaboration
 Compiling module my_alu(NUMBITS=8)
 Compiling module myalutb
@@ -15,6 +15,6 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
-Built simulation executable C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/myalutb_isim_beh.exe
-Fuse Memory Usage: 28356 KB
-Fuse CPU Usage: 1608 ms
+Built simulation executable C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/myalutb_isim_beh.exe
+Fuse Memory Usage: 28516 KB
+Fuse CPU Usage: 499 ms

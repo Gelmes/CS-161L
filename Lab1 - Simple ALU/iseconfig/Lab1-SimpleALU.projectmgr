@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>my_alu (C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab1 - Simple ALU/alu.v)</SelectedItem>
+         <SelectedItem>my_alu (C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/alu.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000009e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000009e0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>my_alu (C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab1 - Simple ALU/alu.v)</CurrentItem>
+      <CurrentItem>my_alu (C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/alu.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -27,13 +27,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000213000000010000000100000000000000000000000064ffffffff000000810000000000000001000002130000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -87,27 +87,27 @@
       <SelectedItems>
          <SelectedItem>Generate Programming File</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000133000000010000000100000000000000000000000064ffffffff000000810000000000000001000001330000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Generate Programming File</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/my_alutb C:|Users|Marco|Dropbox|School|WINTER 2017|161L|Lab1-SimpleALU|my_alutb.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>myalutb (C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab1 - Simple ALU/my_alutb.v)</SelectedItem>
+         <SelectedItem>uut - my_alu (C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/alu.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000bf000000020000000000000000000000000200000064ffffffff000000810000000300000002000000bf0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>myalutb (C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab1 - Simple ALU/my_alutb.v)</CurrentItem>
+      <CurrentItem>uut - my_alu (C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/alu.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -119,7 +119,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000213000000010000000100000000000000000000000064ffffffff000000810000000000000001000002130000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Compile HDL Simulation Libraries</CurrentItem>
    </ItemView>
@@ -132,7 +132,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000213000000010000000100000000000000000000000064ffffffff000000810000000000000001000002130000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>

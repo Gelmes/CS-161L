@@ -1,4 +1,4 @@
-Lab 6 README
+Lab 1 README
 ==========================================================
 
 LEADER
@@ -9,15 +9,13 @@ MEMBERS
 mrubi005@ucr.edu
 
 REMARKS
-- CAM's are really cool they are like the opposite of RAM memory
-- In this lab we implemented the CAM and created some HDL to automaticaly generate an arbitrary sized CAM. 
-- I'm not 100% sure what the output of the cam was supposed to look like with the provided TEST bench bunch i believe my CAM works fine.
-- There does seem to be a bit of lag time before the output sees the results which might have something to do with a bug in my code probably regarding my clock signal
-- I attached an image of my result to this folder
+- There is a lot to pick up in this first lab since we are working with a new language. The lab was prity streight forward most of the time was spent in understanding and implementation.
+- This code could be further improved by changing the organasation and layout. This is not optimal due to lack of experience with VHDL
+
 ==========================================================
 
 BUGS IF ANY 
-- there might be some timing issues since there seems to take a little bit of time before the correct output is seen. Probably has to do with my clock signal if thats the case. Im not sure how soon the output is supposed to be seend.
+- The ALU worked fine with the provided test bench. It might need some edge cases but it took some time to try and figure those out.
 
 
 

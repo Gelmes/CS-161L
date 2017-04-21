@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Lab1-SimpleALU/my_alutb.v" Line 26: Port <arg fmt="%s" index="1">R</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab1 - Simple ALU/my_alutb.v" Line 26: Port <arg fmt="%s" index="1">R</arg> is not connected to this instance
 </msg>
 
 </messages>
