@@ -1,16 +1,16 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/floattb_isim_beh.exe" -prj "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/floattb_beh.prj" "work.floattb" "work.glbl" 
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/floattb_isim_beh.exe -prj C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/floattb_beh.prj work.floattb work.glbl 
 ISim P.15xf (signature 0xc3576ebc)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/float2fix.v" into library work
-Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/fix2float.v" into library work
-Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/lab02.v" into library work
-Analyzing Verilog file "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/testbench.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/float2fix.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/fix2float.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/lab02.v" into library work
+Analyzing Verilog file "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/testbench.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1016 - "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/lab02.v" Line 23: Port clk is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/lab02.v" Line 24: Port clk is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/lab02.v" Line 23: Port clk is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/lab02.v" Line 24: Port clk is not connected to this instance
 Completed static elaboration
 Compiling module fix2float
 Compiling module float2fix
@@ -18,8 +18,7 @@ Compiling module lab02
 Compiling module floattb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 5 Verilog Units
-Built simulation executable C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/floattb_isim_beh.exe
-Fuse Memory Usage: 28300 KB
-Fuse CPU Usage: 358 ms
+Built simulation executable C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/floattb_isim_beh.exe
+Fuse Memory Usage: 26924 KB
+Fuse CPU Usage: 780 ms

@@ -5,10 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/lab02.v" Line 23: Port <arg fmt="%s" index="1">clk</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/lab02.v" Line 23: Port <arg fmt="%s" index="1">clk</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/Marco/Dropbox/School/WINTER 2017/161L/Labs/Lab2 - Float Fixed Converter/lab02.v" Line 24: Port <arg fmt="%s" index="1">clk</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/Marco/Dropbox/School/SPRING 2017/161L/Lab Assignments/CS-161L/Lab2 - Float Fixed Converter/lab02.v" Line 24: Port <arg fmt="%s" index="1">clk</arg> is not connected to this instance
 </msg>
 
 </messages>
